@@ -33,7 +33,7 @@ Error:
 
 ```@parcel/core: Failed to resolve '@soceanfi/solana-stake-sdk' from './node_modules/@unstake-it/sol/dist/fetch.js'
 
-  /Users/ben.hawkins/Projects/staking-xnft/node_modules/@unstake-it/sol/dist/fetch.js:13:36
+  ../xnft-quickstart/node_modules/@unstake-it/sol/dist/fetch.js:13:36
     12 | exports.fetchLiquidityPoolStakeAccounts = void 0;
   > 13 | const solana_stake_sdk_1 = require("@soceanfi/solana-stake-sdk");
   >    |                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
