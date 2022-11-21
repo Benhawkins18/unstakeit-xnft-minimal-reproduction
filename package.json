@@ -14,10 +14,15 @@
     "@coral-xyz/xnft-cli": "latest"
   },
   "dependencies": {
-    "@unstake-it/sol": "^0.1.2",
-    "add": "^2.0.6",
+    "@solana/web3.js": "^1.66.2",
+    "@unstake-it/sol": "^0.1.3",
+    "assert": "^2.0.0",
     "react": "^17.0.2",
-    "react-xnft": "latest",
-    "yarn": "^1.22.19"
+    "react-xnft": "latest"
+  },
+  "alias": {
+    "process": {
+      "global": "{}"
+    }
   }
 }
